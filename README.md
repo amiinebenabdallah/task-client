@@ -8,6 +8,18 @@ A Next.js-based task management application client.
 - Docker Compose
 - Make (optional, for using Makefile commands)
 
+## Deployment
+
+The application is deployed and accessible at:
+- Production URL: [https://task-client-mu.vercel.app/](https://task-client-mu.vercel.app/)
+
+The deployment is handled by Vercel, which provides:
+- Automatic HTTPS
+- Global CDN
+- Continuous Deployment
+- Serverless Functions
+- Edge Network
+
 ## Getting Started
 
 ### Using Docker (Recommended)
@@ -40,19 +52,11 @@ For convenience, you can use the following make commands:
 1. Install dependencies:
 ```bash
 npm install
-# or
-yarn install
-# or
-pnpm install
 ```
 
 2. Run the development server:
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
 ## Project Structure
@@ -65,13 +69,6 @@ pnpm dev
 └── README.md          # Project documentation
 ```
 
-## Environment Variables
-
-The following environment variables are used:
-
-- `NODE_ENV` - Set to 'production' in Docker environment
-- `PORT` - Set to 3000 by default
-- `HOSTNAME` - Set to "0.0.0.0" for Docker compatibility
 
 ## Docker Configuration
 
