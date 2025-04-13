@@ -8,7 +8,7 @@ const Home: NextPage = () => {
         <div className="px-4 py-6 sm:px-0">
           <div className="text-center">
             <h1 className="text-4xl font-bold text-indigo-600 mb-4">Task Managment Application</h1>
-            <p className="text-xl text-gray-600 mb-8">Thank for the opportunity to join your company</p>
+            <p className="text-xl text-gray-600 mb-8">Thank you for the opportunity to join your company</p>
             
             <div className="flex justify-center space-x-4">
               <Link href="/login" className="btn btn-primary">

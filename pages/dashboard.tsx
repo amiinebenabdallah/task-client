@@ -4,7 +4,6 @@ import { authService } from '../services/auth';
 import { taskService, Task, FilterTaskDto, TaskStatus, TaskPriority } from '../services/task';
 import { format } from 'date-fns';
 
-// Spinner component
 const Spinner = () => (
   <div className="flex justify-center items-center">
     <div className="animate-spin rounded-full h-6 w-6 border-b-2 border-white"></div>
